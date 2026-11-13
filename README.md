@@ -30,6 +30,9 @@ dashboards and alerts. Mutation testing with Infection at 90% MSI, enforced in C
 Most of my production work lives in private corporate repositories. What is public here are
 small experiments and benchmarks I run when a design decision needs numbers rather than opinions:
 
+- [**go-sharded-ttl-cache**](https://github.com/zakharauvital/go-sharded-ttl-cache) —
+  thread-safe sharded in-memory TTL cache in Go: RWMutex shards, maphash, background cleanup,
+  deterministic tests on `testing/synctest`, benchmarks, CI with golangci-lint and the race detector
 - [**redis-mget-get-pipeline-benchmark**](https://github.com/zakharauvital/redis-mget-get-pipeline-benchmark) —
   MGET vs sequential GET vs pipeline in Redis, measured from PHP
 - [**tarantool**](https://github.com/zakharauvital/tarantool) — hands-on research into Tarantool as an
